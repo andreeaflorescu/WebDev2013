@@ -8,13 +8,12 @@
 ;; ============================== APPLY-FUNCTIONS ==============================
 ;; ============================================================================= 
 
-(define (apply-functions number list result)
+(define (apply-functions number list)
   ;; check if the variable number is actually an Integer
   ;; check if the list of functions is empty
   (if (or (null? list) (not (integer? number)))
-      (flatten result)
-      (apply-functions number (cdr list) (cons result ((car list) number)))))
-
+      '()
+      (map (lambda(function) (function number)) list))) 
 ;; ================================== TEST FUNCTIONS ===========================
 ;; =============================================================================
 
@@ -52,13 +51,13 @@
 ;; =============================================================================
 
 ;; 1. Invalid Input
-(apply-functions "Samurai Apocalypse" functions '())
-(apply-functions "Game of Trolls" '() '())
+(apply-functions "Samurai Apocalypse" functions)
+(apply-functions "Game of Trolls" '())
 ;; 2. Null Input
-(apply-functions '() '() '())
+(apply-functions '() '())
 ;; 3. Multiple size subsets
-(apply-functions 10 functions '())
-(apply-functions 100 functions1 '())
-(apply-functions 1000 functions2 '())
-(apply-functions 100 functions3 '())
-(apply-functions 10 functions4 '())
+(apply-functions 10 functions)
+(apply-functions 100 functions1)
+(apply-functions 1000 functions2)
+(apply-functions 100 functions3)
+(apply-functions 10 functions4)
