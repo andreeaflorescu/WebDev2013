@@ -1,0 +1,7 @@
+Button - #FA3B3B
+Button :active - #CF1A1A
+Title - #2B2B2B
+Title :hover - #E83535
+Title above photos - rgba(0, 0, 0, 0.75)
+Button above photos - rgba(243, 43, 43, 0.75)
+
