@@ -1,0 +1,80 @@
+body {
+	background: url('images\\background.png') repeat;
+}
+
+.main-header {
+	margin: 0 auto;
+	width: 1141px;
+	height: 347px;
+}
+
+.box {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+.left-section-header {
+	border-right: solid 1px #FFF;
+	position: relative;
+}
+
+.right-section-header {
+}
+
+.fly-left {
+	float: left;
+}
+
+.fly-right {
+	float: right;
+}
+
+.img-style {
+	display: block;
+}
+
+.adjust-between {
+	border-bottom: solid 1px #FFF;	
+}
+
+.red-tittle {
+	font-family: 'Roboto',sans-serif;
+	text-transform: uppercase;
+	color: #FFF;
+	background-color: rgba(243, 43, 43, 0.75);
+	position: absolute;
+	top: -62%;
+	font-size: 18px;
+}
+
+.banner-title {
+	font-family: 'Roboto',sans-serif;
+	color: #FFF;
+	position: absolute;
+	background-color: rgba(0, 0, 0, 0.75);
+	left: 3%;
+	bottom: 6%;
+	font-size: 36px;
+}
+
+a.opacity:hover img{
+	opacity: 0.85;
+}
+
+.banner-title-small{
+	position: absolute;
+	font-size: 22px;
+	font-family: 'Roboto',sans-serif;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.red-tittle-small{
+	position: absolute;
+	font-size: 16px;
+	font-family: 'Roboto',sans-serif;
+	color: #FFF;
+	background-color: rgba(243, 43, 43, 0.75);
+	text-transform: uppercase;
+}
