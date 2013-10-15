@@ -1,6 +1,33 @@
+/*GENERAL CSS PROPERTIES*/
 body {
 	background: url('images\\background.png') repeat;
+	font-family: 'Roboto',sans-serif;
+	color: #3E3E3E;
 }
+
+a, a:hover, a:visited {
+	text-decoration: none;
+}
+
+.fly-left {
+	float: left;
+}
+
+.fly-right {
+	float: right;
+}
+
+.img-style {
+	display: block;
+}
+
+.adjust-between {
+	border-bottom: solid 1px #FFF;	
+}
+
+/*END OF GENERAL CSS PROPERTIES*/
+
+/*MAIN HEADER START*/
 
 .main-header {
 	margin: 0 auto;
@@ -21,22 +48,6 @@ body {
 
 .right-section-header {
 	position: relative;
-}
-
-.fly-left {
-	float: left;
-}
-
-.fly-right {
-	float: right;
-}
-
-.img-style {
-	display: block;
-}
-
-.adjust-between {
-	border-bottom: solid 1px #FFF;	
 }
 
 a.opacity:hover img {
@@ -94,3 +105,68 @@ a.opacity:hover img {
 	left: 68%;
 	bottom: 2%;
 }
+
+/*END OF MAIN HEADER*/
+
+
+/*ARTICLE*/
+article {
+	position: relative;
+	margin-top: 50px;
+	background-color: white;
+	width: 744px;
+	margin-left: 7%;
+}
+
+ul.article-menu {
+	list-style-type:none;
+	position: absolute;
+	float: left;
+	height: 24px;
+	overflow: hidden;
+	margin: 0;
+	padding: 0;
+	background: #FA3B3B;
+	margin-left: 30px;
+	top: -10px;
+}
+
+.article-button {
+	text-decoration: none;
+	color: white;
+	letter-spacing: 1px;
+	font-size: 13px;
+	font-weight: 600;
+}
+
+.article-header {
+
+}
+
+ul.article-menu>li {
+	display: inline;
+	padding: 2px 10px;
+}
+
+.article-title {
+	padding-top: 40px;
+	margin-left: 30px;
+	color: #2B2B2B;
+}
+a:hover>h2.article-title {
+	color: #E83535;
+}
+
+.article-body {
+	padding: 10px 30px;
+	font-size: 14px;
+}
+
+p>a {
+	color: #E83535;
+}
+
+p>a:hover {
+	text-decoration: underline;
+}
+/*END OF ARTICLE
