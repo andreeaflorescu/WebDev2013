@@ -25,6 +25,20 @@ a, a:hover, a:visited {
 	border-bottom: solid 1px #FFF;	
 }
 
+p>a {
+	color: #E83535;
+}
+
+p>a:hover {
+	text-decoration: underline;
+}
+
+
+ul>li {
+	display: inline;
+	padding: 2px 10px;
+}
+
 /*END OF GENERAL CSS PROPERTIES*/
 
 /*MAIN HEADER START*/
@@ -143,11 +157,6 @@ ul.article-menu {
 
 }
 
-ul.article-menu>li {
-	display: inline;
-	padding: 2px 10px;
-}
-
 .article-title {
 	padding-top: 40px;
 	margin-left: 30px;
@@ -162,14 +171,6 @@ a:hover>h2.article-title {
 	font-size: 14px;
 }
 
-p>a {
-	color: #E83535;
-}
-
-p>a:hover {
-	text-decoration: underline;
-}
-
 li a:hover.article-button {
 	border-bottom: 1px dotted #FFFFFF;
 }
@@ -177,5 +178,11 @@ li a:hover.article-button {
 ul.article-menu>li:first-child {
 	background-color: #CF1A1A;
 	border-bottom: solid 4px #CF1A1A;
+}
+
+
+.grey {
+	color: #B1B1B1;
+	font-size: 13px;
 }
 /*END OF ARTICLE
