@@ -39,14 +39,33 @@ body {
 	border-bottom: solid 1px #FFF;	
 }
 
-.red-tittle {
+a.opacity:hover img {
+	opacity: 0.85;
+}
+
+.red-title {
 	font-family: 'Roboto',sans-serif;
 	text-transform: uppercase;
 	color: #FFF;
 	background-color: rgba(243, 43, 43, 0.75);
 	position: absolute;
+}
+
+.red-title-big {	
 	top: -62%;
 	font-size: 18px;
+}
+
+.red-title-up {
+	font-size: 16px;
+	z-index: 100;
+	top: -45%;
+}
+
+.red-title-down {
+	font-size: 16px;
+	z-index: 100;
+	top: -90%;
 }
 
 .banner-title {
@@ -54,55 +73,24 @@ body {
 	color: #FFF;
 	position: absolute;
 	background-color: rgba(0, 0, 0, 0.75);
+}
+
+.banner-title-big {
 	left: 3%;
 	bottom: 6%;
 	font-size: 36px;
 }
 
-a.opacity:hover img {
-	opacity: 0.85;
-}
-
 .banner-title-up {
-	position: absolute;
 	font-size: 22px;
-	font-family: 'Roboto',sans-serif;
-	color: #FFF;
-	background-color: rgba(0, 0, 0, 0.75);
 	z-index: 100;
 	left: 68%;
 	top: 33%;
 }
 
-.red-tittle-up {
-	position: absolute;
-	font-size: 16px;
-	font-family: 'Roboto',sans-serif;
-	color: #FFF;
-	background-color: rgba(243, 43, 43, 0.75);
-	text-transform: uppercase;
-	z-index: 100;
-	top: -45%;
-}
-
 .banner-title-down {
-	position: absolute;
 	font-size: 22px;
-	font-family: 'Roboto',sans-serif;
-	color: #FFF;
-	background-color: rgba(0, 0, 0, 0.75);
 	z-index: 100;
 	left: 68%;
 	bottom: 2%;
-}
-
-.red-tittle-down {
-	position: absolute;
-	font-size: 16px;
-	font-family: 'Roboto',sans-serif;
-	color: #FFF;
-	background-color: rgba(243, 43, 43, 0.75);
-	text-transform: uppercase;
-	z-index: 100;
-	top: -90%;
 }
