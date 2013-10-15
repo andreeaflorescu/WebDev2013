@@ -169,4 +169,13 @@ p>a {
 p>a:hover {
 	text-decoration: underline;
 }
+
+li a:hover.article-button {
+	border-bottom: 1px dotted #FFFFFF;
+}
+
+ul.article-menu>li:first-child {
+	background-color: #CF1A1A;
+	border-bottom: solid 4px #CF1A1A;
+}
 /*END OF ARTICLE
