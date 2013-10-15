@@ -59,11 +59,11 @@ body {
 	font-size: 36px;
 }
 
-a.opacity:hover img{
+a.opacity:hover img {
 	opacity: 0.85;
 }
 
-.banner-title-small{
+.banner-title-up {
 	position: absolute;
 	font-size: 22px;
 	font-family: 'Roboto',sans-serif;
@@ -74,7 +74,7 @@ a.opacity:hover img{
 	top: 33%;
 }
 
-.red-tittle-small{
+.red-tittle-up {
 	position: absolute;
 	font-size: 16px;
 	font-family: 'Roboto',sans-serif;
@@ -82,4 +82,27 @@ a.opacity:hover img{
 	background-color: rgba(243, 43, 43, 0.75);
 	text-transform: uppercase;
 	z-index: 100;
+	top: -45%;
+}
+
+.banner-title-down {
+	position: absolute;
+	font-size: 22px;
+	font-family: 'Roboto',sans-serif;
+	color: #FFF;
+	background-color: rgba(0, 0, 0, 0.75);
+	z-index: 100;
+	left: 68%;
+	bottom: 2%;
+}
+
+.red-tittle-down {
+	position: absolute;
+	font-size: 16px;
+	font-family: 'Roboto',sans-serif;
+	color: #FFF;
+	background-color: rgba(243, 43, 43, 0.75);
+	text-transform: uppercase;
+	z-index: 100;
+	top: -90%;
 }
