@@ -188,7 +188,15 @@ ul.article-menu>li:first-child {
 
 .share-article>span{
 	padding-right: 10px;
-	padding-top: 2px;
 }
 
+.share-article img, .meta_block img {
+	vertical-align: text-top;
+}
+
+.share-article {
+	border: solid 1px #DEDEDE;
+	border-radius: 3px;
+	padding: 10px 10px;
+}
 /*END OF ARTICLE
