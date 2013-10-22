@@ -215,4 +215,10 @@ ul.article-menu>li:first-child {
 	border-radius: 3px;
 	padding: 10px 10px;
 }
+
+.img-shadow {
+	position: absolute;
+	margin-left: 22px;
+    top: -9px;
+}
 /*END OF ARTICLE
